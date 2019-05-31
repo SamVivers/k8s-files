@@ -16,9 +16,9 @@ spec:
                 spec:
                         containers:
                                 - name: back
-                                  image: docker.io/wrusselly/spring-todo
+                                  image: docker.io/samvivers/backend
                                   ports:
-                                          - containerPort: 9090
+                                          - containerPort: 8081
                                   env:
                                           - name: MYSQL_IP 
                                             value: mysql  

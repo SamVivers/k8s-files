@@ -16,7 +16,7 @@ spec:
                 spec:
                         containers:
                                 - name: front
-                                  image: docker.io/wrusselly/node-img
+                                  image: docker.io/samvivers/frontend
                                   ports:
                                           - containerPort: 3000
                                             
